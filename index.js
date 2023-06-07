@@ -50,7 +50,7 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-})
+});
 
 
 let darkModeIcon = document.querySelector('#darkMode-icon');
@@ -58,7 +58,7 @@ let darkModeIcon = document.querySelector('#darkMode-icon');
 darkModeIcon.onclick = () => {
   darkModeIcon.classList.toggle('bx-sun');
   document.body.classList.toggle('dark-mode');
-}
+};
 
 
 ScrollReveal({
@@ -76,7 +76,7 @@ ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .test
 ScrollReveal().reveal(
   '.home-content h1, .about-img img',
   { origin: "left" }
-);
+)
 
 ScrollReveal().reveal(".home-content h3, .home-content p, .about-content", { origin: "right" });
 
